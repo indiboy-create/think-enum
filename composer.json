@@ -1,0 +1,26 @@
+{
+  "name": "youvision/think-enum",
+  "description": "基于 ThinkPHP 8 的枚举增强工具，更方便地在项目中定义并使用枚举",
+  "keywords": ["php", "enum", "thinkphp", "thinkphp8"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "youvision"
+    }
+  ],
+  "require": {
+    "php": ">=8.1.0",
+    "topthink/framework": "^8.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^10.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "youvision\\enum\\think\\": "src/"
+    }
+  },
+  "scripts": {
+    "test": "phpunit"
+  }
+}
